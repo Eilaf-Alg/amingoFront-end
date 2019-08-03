@@ -14,7 +14,7 @@ const LogOutButton = (prop) => {
 
     const logOutUser = () => {
         localStorage.clear();
-        setState({...state, userLoggedIn: false})
+        setState({...state, userLoggedIn: false}) // if this is not done then the logout button will not appear unless we click any link in the app 1st
         console.log('Storage cleared')
     }
 

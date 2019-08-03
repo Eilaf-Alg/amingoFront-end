@@ -63,7 +63,8 @@ const LoginWindow = () => {
                     errorMessage: false 
                 })
 
-                // close the LogIn window when logged in
+                // close the LogIn window when logged in. Also UPDATE THE GLOBAL STATE userLoggedIn 
+                // to re-render the page and update the logout button automatically not manually
                 setState({...state, logInForm: false, userLoggedIn: true})
 
             }
