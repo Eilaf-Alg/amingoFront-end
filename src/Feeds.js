@@ -16,13 +16,13 @@ const Feeds = () => {
             <div className="container">
                 <br/> <br/>
                 <h1>Your Feeds: </h1>
-                <FeedMedia image="img/a.jpg" text="Extremely fun gathering!!"/>
-                <FeedMedia image="img/bg-showcase-2.jpg" text="Cras sit amet nibh libero, 
+                <FeedMedia image="img/a.jpg" title="Coding" text="Extremely fun gathering!!"/>
+                <FeedMedia image="img/bg-showcase-2.jpg" title="Skating" text="Cras sit amet nibh libero, 
                     in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
                     Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
                     Fusce condimentum nunc ac nisi vulputate fringilla. 
                     Donec lacinia congue felis in faucibus."/>
-                <FeedMedia image="img/bg-showcase-3.jpg" text="Cras sit amet nibh libero, 
+                <FeedMedia image="img/bg-showcase-3.jpg" titie="Solving Riddles" text="Cras sit amet nibh libero, 
                     in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
                     Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
                     Fusce condimentum nunc ac nisi vulputate fringilla. 
