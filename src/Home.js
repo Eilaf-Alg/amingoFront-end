@@ -90,7 +90,7 @@ const [state, setState] = useContext(AppContext)
           <Avatar
             img="img/testimonials-2.jpg"
             title="Fred S."
-            caption='"Bootstrap is amazing. Ive been using it to create lots of super nice landing pages."'
+            caption='"Amazing. Ive been using it to create lots of super nice landing pages."'
           />
           <Avatar
             img="img/testimonials-3.jpg"
