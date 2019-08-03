@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Feeds from "./Feeds";
+import FeedsNotLoggedIn from "./FeedsNotLoggedIn";
 
 // Since App.js will contain all the route components (Home, About ..), we can import
 // the CSS file inside App.js and only once, instead of repeatedly inside all the routes' js files
@@ -24,7 +25,7 @@ const checkedLoggedIn = (comp) => {
   // since all react components are actually functions at the end of the day
   console.log(state.userLoggedIn)
   if(state.userLoggedIn) return comp;
-  else return ()=><div>Please log in</div>
+  else return ()=><FeedsNotLoggedIn/>
 } 
 
   console.log('App) signUpForm:', state.signUpForm);
