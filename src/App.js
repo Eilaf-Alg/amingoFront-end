@@ -19,7 +19,7 @@ const App = () => {
     userLoggedIn: false
    });
 
-  
+
 const checkedLoggedIn = (comp) => { 
 
   // since all react components are actually functions at the end of the day
