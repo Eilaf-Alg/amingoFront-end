@@ -56,6 +56,6 @@ const checkedLoggedIn = (comp) => {
       </BrowserRouter>
       </AppContext.Provider>
   );
-};
+}; 
 
 export default App;
