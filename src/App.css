@@ -115,7 +115,7 @@ body {
 /* Only Icons inside Info component. not title and not caption  */
 .Info i{
   font-size: 60px;
-  color: #007bff;
+  color: chocolate;
 }
 
 .Info i:hover{

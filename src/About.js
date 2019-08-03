@@ -25,7 +25,7 @@ const About = () => {
                     (The graph's sharp decline at September simply indicates when she stopped collecting data.) </p>
             </div>
 
-            <Jumbotron JumboLocation="Bottom" img="img/bg-masthead.jpg">
+            <Jumbotron JumboLocation="Bottom" img="img/sunset.jpeg">
                 Sign Up
             </Jumbotron>
 
