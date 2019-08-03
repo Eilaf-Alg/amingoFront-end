@@ -11,11 +11,11 @@ const Feeds = () => {
     const [state, setState] = useContext(AppContext)
 
     return (
-        <div className="Feeds Footer-flex-wrapper">
+        <div className="About Footer-flex-wrapper">
             <NavBar />
             <div className="container">
                 <br/> <br/>
-                <h1> Please Log In to see your feeds: </h1>
+                <h1> Please Log in to see your feeds :) </h1>
             </div>
 
 
