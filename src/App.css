@@ -118,7 +118,7 @@ body {
   color: #007bff;
 }
 
-.Info i:hover{
+.Info:hover{
   color: chocolate;
   /* font-size: 80px; */
 }
