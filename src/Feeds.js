@@ -16,7 +16,7 @@ const Feeds = () => {
             <div className="container">
                 <br/> <br/>
                 <h1>Your Feeds: </h1>
-                <FeedMedia image="img/bg-showcase-1.jpg"/>
+                <FeedMedia image="img/a.jpg"/>
                 <FeedMedia image="img/bg-showcase-2.jpg"/>
                 <FeedMedia image="img/bg-showcase-3.jpg"/>
             </div>
