@@ -57,7 +57,7 @@ const [state, setState] = useContext(AppContext)
 
         <JigSaw
           order={2}
-          img="img/bg-showcase-1.jpg"
+          img="img/kids-outing.jpg"
           title="Kids Outing"
           caption="Bring your kids for the ever-popular Kids Outing gathering and meet all your neighbours! 
           Kids of all ages are welcome - start by registering at our community website!"
@@ -65,7 +65,7 @@ const [state, setState] = useContext(AppContext)
 
         <JigSaw
           order={1}
-          img="img/bg-showcase-2.jpg"
+          img="img/furniture-class.jpg"
           title="Furniture Making Class 3"
           caption="New season - furniture making classes, make yourself useful and learn how to make your own furniture! 
           Everyone in the community are welcome to join Season 3 of the furniture making class!"
@@ -73,7 +73,7 @@ const [state, setState] = useContext(AppContext)
 
         <JigSaw
           order={2}
-          img="img/bg-showcase-3.jpg"
+          img="img/tennis.jpg"
           title="The Tennis Club"
           caption="For the tennis enthusiasts. Learn how to play tennis and hit some balls with the locals. 
           Have fun, get some exercise and wind down after a long day!"
@@ -100,7 +100,7 @@ const [state, setState] = useContext(AppContext)
         </InfoGroup>
 
         {/* JumboLocation prop is to alter the height of the imagr based on its location */}
-        <Jumbotron JumboLocation="Bottom" img="img/bg-masthead.jpg">
+        <Jumbotron JumboLocation="Bottom" img="img/sunset.jpg">
         Ready to Sign Up?
         </Jumbotron>
 
