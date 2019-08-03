@@ -1,6 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { AppContext } from './App';
 
+// *** Note *** we created the file .env and pasted 'REACT_APP_API_URL=http://localhost:5000/' inside it 
+
 const LoginWindow = () => {
 
     let email;
