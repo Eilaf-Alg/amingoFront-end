@@ -100,7 +100,7 @@ const [state, setState] = useContext(AppContext)
         </InfoGroup>
 
         {/* JumboLocation prop is to alter the height of the imagr based on its location */}
-        <Jumbotron JumboLocation="Bottom" img="img/sunset.jpg">
+        <Jumbotron JumboLocation="Bottom" img="img/sunset.jpeg">
         Ready to Sign Up?
         </Jumbotron>
 
