@@ -1,0 +1,234 @@
+/* body {
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+} */
+
+html {
+
+}
+
+body {
+  /* to hide scrollbar */
+  overflow: hidden;
+
+  /* attempt to fix the footer */
+
+}
+
+.Home {
+  text-align: center;
+
+  /* Added all of styles below to hide the scrollbar, including style overlay inside the body{} */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: -15px;
+  overflow: auto;
+}
+
+.About{
+    text-align: center;
+
+    /* Added all of styles below to hide the scrollbar, including style overlay inside the body{} */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: -15px;
+    overflow: auto;
+}
+
+/* Style the jumbotron of the about page */
+.About .aboutJumbo{
+  padding: 240px;
+}
+/* Style the icon in the jumbotron of the about page */
+.About .aboutJumbo i{
+  font-size: 60px;
+  color: #007bff;
+}
+
+.Feeds {
+    /* Added all of styles below to hide the scrollbar, including style overlay inside the body{} */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: -15px;
+    overflow: auto;
+}
+
+
+/* We created this class. the other 'navbar' class comes from bootstrap */
+.MyNavbar .nav-links{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.MyNavbar .logo{
+  margin-right: auto;
+  color: chocolate;
+  text-decoration: none;
+}
+
+.MyNavbar .logo:hover{
+  color: #007bff;
+}
+
+.MyNavbar .link{
+  margin-left: 24px;
+}
+
+.InfoGroup{
+  padding: 90px 0 90px 0; 
+  background-color: #f8f9fa;
+}
+
+/* to style the text in the InfoGroup at the top */
+.InfoGroup.topGroup p{
+  font-size: 1.25rem;
+}
+
+/* to distinguish between the 2 IngoGroups we used, this is to style the one with the 3 images */
+.InfoGroup.testimonials{
+  background-color: rgba(248, 249, 250, 0.5); /* Last argument is opacity */
+}
+
+/* For the "What people are saying text above the 3 images" */
+.InfoGroup h2{
+  margin: 0 0 45px;
+  font-weight: bold;
+}
+
+/* Instead of using rows and cols for aligning the 3 InfoGroups, we can use flex as it is much easier */
+.InfoGroup .container{
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* Maximum width of a component */
+.Info {
+  max-width: 320px;
+}
+
+/* Only Icons inside Info component. not title and not caption  */
+.Info i{
+  font-size: 60px;
+  color: #007bff;
+}
+
+.Info i:hover{
+  color: chocolate;
+  /* font-size: 80px; */
+}
+
+/* "showcase-text" was already there, we didn't add it */
+.JigSaw .showcase-text{
+  padding: 70px;
+  text-align: left;
+}
+
+/* styling the height of the images */
+.JigSaw .showcase-img{
+  min-height: 30rem;
+}
+
+.Jumbotron {
+  margin-bottom: 0;
+  background-size: 100% 100%;
+  color: white;
+  border-radius: 0;
+}
+
+.Jumbotron h1 {
+  margin-bottom: 40px;
+}
+
+.Jumbotron.Top {
+  padding: 180px 0 180px 0;
+}
+
+.Jumbotron.Top h1 {
+  font-size: 3rem;
+}
+
+.Jumbotron.Bottom {
+  padding: 120px 0 120px 0;
+}
+
+
+/* ----- */
+/* the three images together */
+.AvatarGroup {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* Circular image */
+.Avatar img {
+  border-radius: 100%;
+  box-shadow: #000 0px 0px 10px;
+  width: 192px;
+  height: 192px;
+}
+
+/* Maximum width for a <p> in the Avatar  */
+.Avatar p{
+  max-width: 300px;
+}
+
+.Avatar p.title{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 16px 0 8px;
+}
+
+
+/* This keeps the grey color and the form remain covering the screen even when scrolling */
+.RegisterLogin {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  /* position: fixed;  is what keeps the form floating no matter where we are on the page */
+  position: fixed; 
+  top: 0px;
+  left: 0px;
+}
+
+/* To style the container of the form */
+.RegisterLogin > .container{
+  width: 400px;
+  background: white;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 20px;
+  text-align: left;
+}
+
+/* To give space to form inputs (margins between the 4 inputs) */
+.RegisterLogin > .container input{
+  margin: 0 0 16px;
+}
+
+.Feeds .media {
+  background: #e8e8e8;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.Feeds .media img{
+  height: 200px;
+  width: 300px;
+}
+
+/* attempt to fix footer at the buttom */
+.Footer-flex-wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+
