@@ -15,7 +15,6 @@ const Feeds = () => {
             <NavBar />
             <div className="container">
                 <br/> <br/>
-
                 <h1> <i classclassName="fas fa-sign-in-alt"></i> </h1>
                 <h1> Please Log in to see your feeds :) </h1>
             </div>
